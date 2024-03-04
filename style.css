@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.content {
+    display: flex0;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header {
+    color: white;
+    background-color: #1f2937;
+}
+
+.logo-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+}
+.nav {
+    display: flex;
+    gap: 10px;
+    padding: 16px;
+}
+
+.hero {
+    display: flex;
+    gap: 25px;
+    padding: 30px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.hero-header {
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-text {
+    font-size: 18px;
+    flex: 1;
+}
+
+.signup {
+    align-items: flex-end;
+    align-self: flex-start;
+    padding: 5px 15px;
+    color: white;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 4px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cards-header {
+    font-weight: 900;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cube {
+    height: 100px;
+    width: 100px;
+    border: 3px solid #0189d2;
+    border-radius: 10px;
+}
+
+.card {
+    width: 100px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 20px;
+    text-align: center;
+}
+
+.quote p {
+    font-style: italic;
+    color: #1f2937;
+    font-size: 36px;
+}
+.quote h3 {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    font-size: 30px;
+    padding: 0;
+}
+
+.auth {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.square {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882f6;
+    width: 900px;
+    border-radius: 8px;
+    color: white;
+    padding: 20px 60px;
+}
+
+.auth-text {
+    flex: 1;
+    gap: 20px;
+}
+
+.auth-text h3 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+}
+.subtext {
+    font-size: 23px;
+}
+
+.auth-btn {
+    gap: 20px;
+}
+
+.auth-btn button {
+    border: 1px solid white;
+    padding: 5px 15px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #1f2937;
+    color: white;
+    padding: 30px 0px;
+}
